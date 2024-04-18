@@ -1,0 +1,20 @@
+{
+  "myExpense": [
+    {
+      "id": "37ec",
+      "title": "Salary",
+      "amount": "50000",
+      "date": "2024-04-09",
+      "type": "income",
+      "income": false
+    },
+    {
+      "id": "0d13",
+      "title": "Shopping",
+      "amount": "12000",
+      "date": "2024-04-12",
+      "type": "expense",
+      "income": false
+    }
+  ]
+}

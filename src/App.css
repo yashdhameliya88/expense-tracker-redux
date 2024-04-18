@@ -1,0 +1,160 @@
+.App {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+}
+
+.container {
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  width: 90%; /* Adjust width as needed */
+  max-width: 600px; /* Adjust max-width as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.main {
+  margin: 20px;
+}
+
+.fw {
+  font-weight: 500;
+}
+
+.light-font {
+  font-weight: normal;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+.lg {
+  font-size: large;
+}
+
+.x-lg {
+  font-size: x-large;
+}
+
+.xx-lg {
+  font-size: xx-large;
+}
+
+.balance {
+  padding-bottom: 10px;
+}
+
+.bal-div {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.bal-info {
+  text-align: center;
+}
+
+.inc-color {
+  color: green;
+}
+
+.exp-color {
+  color: rgb(181, 26, 26);
+}
+
+.edit-color {
+  color: rgb(30, 0, 255);
+}
+
+.divider {
+  padding-right: 1px;
+  background-color: gray;
+}
+
+.tran-data {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-right: solid 5px rgb(181, 26, 26);
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.tran-data-info {
+  width: 60%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.divider-div {
+  padding-right: 10px;
+  background-color: gray;
+}
+
+.red-border {
+  border-right: 5px solid red;
+}
+
+.green-border {
+  border-right: 5px solid green;
+}
+
+.add-tran-form {
+  width: 100%;
+  height: 35px;
+  margin: 10px 0px 10px 0px;
+}
+
+.btn-add {
+  background-color: blue;
+  color: white;
+}
+
+.btn-reset {
+  background-color: red;
+  color: white;
+}
+
+.transaction-container {
+  max-height: 200px; /* Adjust the height according to your needs */
+  overflow-y: auto;
+}
+
+.tran-center {
+  text-align: center;
+}
+
+.btn-right {
+  width: 100%;
+}
+
+.btn-right button {
+  float: right;
+}
+
+/* Media Queries for Responsive Design */
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: 80%; /* Adjust width as needed */
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .container {
+    width: 70%; /* Adjust width as needed */
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 60%; /* Adjust width as needed */
+  }
+}
